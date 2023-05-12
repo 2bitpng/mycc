@@ -1,6 +1,6 @@
-CFLAGS=-std=c11 -g -static
-
-mycc: mycc.c
+CFLAGS=-std=c++20 -g -static
+CC=g++
+mycc: mycc.cpp
 
 test: mycc
 	./test.sh
